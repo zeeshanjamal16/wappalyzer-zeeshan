@@ -1,0 +1,41 @@
+{
+  "name": "wappalyzer-zeeshan",
+  "description": "Identify technology on websites - Wappalyzer npm module based on HTTP Archive fork.",
+  "keywords": [
+    "analyze",
+    "identify",
+    "detect",
+    "detector",
+    "technology",
+    "cms",
+    "framework",
+    "library",
+    "software"
+  ],
+  "homepage": "https://github.com/zeeshanjamal16/wappalyzer-zeeshan",
+  "version": "6.10.62",
+  "author": "Wappalyzer Zeeshan",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeeshanjamal16/wappalyzer-zeeshan"
+  },
+  "main": "driver.js",
+  "files": [
+    "cli.js",
+    "categories.json",
+    "driver.js",
+    "index.js",
+    "technologies/*",
+    "wappalyzer.js"
+  ],
+  "bin": {
+    "wappalyzer": "./cli.js"
+  },
+  "dependencies": {
+    "puppeteer": "~19.7.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
