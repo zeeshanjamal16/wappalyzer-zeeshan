@@ -1,21 +1,19 @@
 # Wappalyzer
 
-[Wappalyzer](https://www.wappalyzer.com/) indentifies technologies on websites. 
-
-*Note:* The [wappalyzer-core](https://www.npmjs.com/package/wappalyzer-core) package provides a low-level API without dependencies.
+[Wappalyzer-Zeeshan](https://github.com/zeeshanjamal16/wappalyzer-zeeshan) indentifies technologies on websites. 
 
 ## Command line
 
 ### Installation
 
 ```shell
-$ npm i -g wappalyzer
+$ npm i -g wappalyzer-zeeshan
 ```
 
 ### Usage
 
 ```
-wappalyzer <url> [options]
+wappalyzer-zeeshan <url> [options]
 ```
 
 #### Options
@@ -51,13 +49,13 @@ wappalyzer <url> [options]
 ### Installation
 
 ```shell
-$ npm i wappalyzer
+$ npm i wappalyzer-zeeshan
 ```
 
 ### Usage
 
 ```javascript
-const Wappalyzer = require('wappalyzer')
+const Wappalyzer = require('wappalyzer-zeeshan')
 
 const url = 'https://www.wappalyzer.com'
 
@@ -112,7 +110,7 @@ const wappalyzer = new Wappalyzer(options)
 Multiple URLs can be processed in parallel:
 
 ```javascript
-const Wappalyzer = require('wappalyzer');
+const Wappalyzer = require('wappalyzer-zeeshan');
 
 const urls = ['https://www.wappalyzer.com', 'https://www.example.com']
 
